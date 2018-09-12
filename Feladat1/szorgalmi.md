@@ -6,5 +6,6 @@
 Ezt követően a cosinus és a sinus tétel segítségével kiszámolja a **c** oldalt és a maradék két szöget, **alfát** és **bétát**.
 A kiszámított eredményeket írja ki a szabványos kimenetre. 
 A megoldáshoz érdemes használni a math.h library-t. 
+A szögek fokokban legyenek. (Szükség esetén váltsd át radiánba.)
 
 *Beadási határidő:* 2018.09.19, labor kezdetéig
