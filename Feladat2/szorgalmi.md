@@ -14,8 +14,8 @@ Bemenet:
 * ellenállás párhuzamos kapcsolásakor: R 1
 * ha kész van: NA -3
 * reset: NA -2
-* egyet visszalépni (utolsó ellenállás levétele): NA -1
-R az új bekötend? ellenállás értéke, míg utána szóközzel elválasztva, hogy soros (0) vagy párhuzamos (1) bekötés jön. NA azt jelenti, nem számít az értéke.
+* egyet visszalépni (utolsó ellenállás levétele): NA -1 <br/>
+R az új bekötendő ellenállás értéke, míg utána szóközzel elválasztva, hogy soros (0) vagy párhuzamos (1) bekötés jön. NA azt jelenti, nem számít az értéke.
 
 Hibakezelés:
 * nem pozitív ellenállás esetén: írja ki, hogy az ellenállás negatív. A program ezután kínálja fel újra
