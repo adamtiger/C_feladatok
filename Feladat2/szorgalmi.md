@@ -1,36 +1,36 @@
-# Ered? ellenállás számítása
+# EredÅ‘ ellenÃ¡llÃ¡s szÃ¡mÃ­tÃ¡sa
 
-Ebben a feladatban egy olyan program megvalósítása lenne a cél, ami képes ered? ellenállást számolni
-egy áramkörben lev? ellenállásokra. A program a szabványos bemeneten megkap egy új ellenállást és azt, hogy az 
-párhuzamosan vagy sorosan van e kapcsolva az eddig már felépített rendszerhez. Ezt követ?en kiszámolja az 
-aktuális ered? ellenállást. A felhasználó megfelel? módon tudja jelezni, hogy most már végzett. Ekkor az
-eredményt kiírja a képerny?re. Fontos a hibakezelés. legyen továbbá lehetséges reset-elni (el?lr?l kezdeni), illetve
-egyet visszalépni, de sorozatos visszalépés nem lehet.
+Ebben a feladatban egy olyan program megvalÃ³sÃ­tÃ¡sa lenne a cÃ©l, ami kÃ©pes eredÅ‘ ellenÃ¡llÃ¡st szÃ¡molni
+egy Ã¡ramkÃ¶rben levÅ‘ ellenÃ¡llÃ¡sokra. A program a szabvÃ¡nyos bemeneten megkap egy Ãºj ellenÃ¡llÃ¡st Ã©s azt, hogy az 
+pÃ¡rhuzamosan vagy sorosan van e kapcsolva az eddig mÃ¡r felÃ©pÃ­tett rendszerhez. Ezt kÃ¶vetÅ‘en kiszÃ¡molja az 
+aktuÃ¡lis eredÅ‘ ellenÃ¡llÃ¡st. A felhasznÃ¡lÃ³ megfelelÅ‘ mÃ³don tudja jelezni, hogy most mÃ¡r vÃ©gzett. Ekkor az
+eredmÃ©nyt kiÃ­rja a kÃ©pernyÅ‘re. Fontos a hibakezelÃ©s. legyen tovÃ¡bbÃ¡ lehetsÃ©ges reset-elni (elÅ‘lrÅ‘l kezdeni), illetve
+egyet visszalÃ©pni, de sorozatos visszalÃ©pÃ©s nem lehet.
 
-Alább a részletek következnek.
+AlÃ¡bb a rÃ©szletek kÃ¶vetkeznek.
 
 Bemenet:
-* ellenállás soros kapcsolásakor ez legyen a bemenet a képerny?n: R 0
-* ellenállás párhuzamos kapcsolásakor: R 1
-* ha kész van: NA -3
+* ellenÃ¡llÃ¡s soros kapcsolÃ¡sakor ez legyen a bemenet a kÃ©pernyÅ‘n: R 0
+* ellenÃ¡llÃ¡s pÃ¡rhuzamos kapcsolÃ¡sakor: R 1
+* ha kÃ©sz van: NA -3
 * reset: NA -2
-* egyet visszalépni (utolsó ellenállás levétele): NA -1
-R az új bekötend? ellenállás értéke, míg utána szóközzel elválasztva, hogy soros (0) vagy párhuzamos (1) bekötés jön. NA azt jelenti, nem számít az értéke.
+* egyet visszalÃ©pni (utolsÃ³ ellenÃ¡llÃ¡s levÃ©tele): NA -1
+R az Ãºj bekÃ¶tend? ellenÃ¡llÃ¡s Ã©rtÃ©ke, mÃ­g utÃ¡na szÃ³kÃ¶zzel elvÃ¡lasztva, hogy soros (0) vagy pÃ¡rhuzamos (1) bekÃ¶tÃ©s jÃ¶n. NA azt jelenti, nem szÃ¡mÃ­t az Ã©rtÃ©ke.
 
-Hibakezelés:
-* nem pozitív ellenállás esetén: írja ki, hogy az ellenállás negatív. A program ezután kínálja fel újra
-az ellenállás csatolás lehetoségét.
-* nem létezo kapcsolási mód esetén: írja, ki hogy érvénytelen bekötési mód. A program ezután kínálja fel újra
-az ellenállás csatolás lehetoségét.
+HibakezelÃ©s:
+* nem pozitÃ­v ellenÃ¡llÃ¡s esetÃ©n: Ã­rja ki, hogy az ellenÃ¡llÃ¡s negatÃ­v. A program ezutÃ¡n kÃ­nÃ¡lja fel Ãºjra
+az ellenÃ¡llÃ¡s csatolÃ¡s lehetÅ‘sÃ©gÃ©t.
+* nem lÃ©tezÅ‘ kapcsolÃ¡si mÃ³d esetÃ©n: Ã­rja, ki hogy Ã©rvÃ©nytelen bekÃ¶tÃ©si mÃ³d. A program ezutÃ¡n kÃ­nÃ¡lja fel Ãºjra
+az ellenÃ¡llÃ¡s csatolÃ¡s lehetÅ‘sÃ©gÃ©t.
 
-Példa a bemenet használatra:
+PÃ©lda a bemenet hasznÃ¡latra:
 
 ![kapcsolas](ellenallas.png)
 
 **Teszt:**
 
-Bemenetek: (10 0) (8 0) (3 1) (20 0) (4.8 1) (3.9 0) (4.1 0)
-Elvárt kimenet: 11.9582
+Bemenetek: (10 0) (8 0) (3 1) (20 0) (4.8 1) (3.9 0) (4.1 0) <br/>
+ElvÃ¡rt kimenet: 11.9582
 
-*Feltöltend?:* csak a forráskód egy .c kiterjesztés? fájlban, feltöltés a moodle-ben a 3. labor szorgalmi feladatához <br/>
-*Beadási határid?:* 2018.09.26, labor kezdetéig
+*FeltÃ¶ltendÅ‘:* csak a forrÃ¡skÃ³d egy .c kiterjesztÃ©sÅ± fÃ¡jlban, feltÃ¶ltÃ©s a moodle-ben a 3. labor szorgalmi feladatÃ¡hoz <br/>
+*BeadÃ¡si hatÃ¡ridÅ‘:* 2018.09.26, labor kezdetÃ©ig
