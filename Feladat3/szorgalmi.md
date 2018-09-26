@@ -1,6 +1,6 @@
 # Galton tábla
 
-A [Galton tábla](https://en.wikipedia.org/wiki/Bean_machine) egy olyan függőleges tábla, amin az ábrán látható elrendezés szerint helyezkednek el szögek. A háromszög csúcsánál belép egy gyönyg. Ezt követően véletlenszerűen balra vagy jobbra esik tovább. A következő szögnél szintén véletlenszerűen balra vagy jobbra halad tovább. Minden szögnél az oda érkező golyóknak átlagosan a fele megy balra, illetve a másik fele jobbra. A kék golyó egy gyöngyöt jelöl, a piros törött vonal egy lehetséges pályát, ahogy a szögek között pattog és beér egy fachba. A szagatott vonalak a fachok határait jelölik, ahova a gyöngyök eshetnek.
+A [Galton tábla](https://en.wikipedia.org/wiki/Bean_machine) egy olyan függőleges tábla, amin az ábrán látható elrendezés szerint helyezkednek el szögek. A háromszög csúcsánál belép egy gyöngy. Ezt követően véletlenszerűen balra vagy jobbra esik tovább. A következő szögnél szintén véletlenszerűen balra vagy jobbra halad tovább. Minden szögnél az oda érkező golyóknak átlagosan a fele megy balra, illetve a másik fele jobbra. A kék kör egy gyöngyöt jelöl, a piros törött vonal egy lehetséges pályát, ahogy a szögek között pattog és beér egy fachba. A szagatott vonalak a fachok határait jelölik, ahova a gyöngyök eshetnek.
 
 ![galton](galton.png)
 
