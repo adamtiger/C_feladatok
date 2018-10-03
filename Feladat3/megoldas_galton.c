@@ -17,8 +17,8 @@ int main() {
 	// Galton-szimulacio
 	for (int szint = 1; szint < felosztas; ++szint) {
 
-        // adott szinten levő golyók száma
-		for (int i = 0; i < szint; ++i) {
+               // adott szinten levő golyók száma
+	       for (int i = 0; i < szint; ++i) {
 
 			int balra = golyok_szama[i] / 2;
 			int jobbra = golyok_szama[i] - balra;
