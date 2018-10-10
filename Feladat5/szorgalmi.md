@@ -10,10 +10,10 @@ A feladat ennek reprodukálása. A rajzolás svg fájlba történik, ami példá
 A cél egy olyan program, ami tetszőleges szintig képes kirajzolni a fraktált. (Mivel nem tanultunk dinamikus tömböt, 
 ezért maximalizálhatjuk a szintek számát 6-ban.) 
 
-Az svg fájl előállításához segítséget nyújt a draw_fractal.h és .c fájlok. A megfelelő fügvény helyes hívása után egy 
-fractal.svg nevű fájl fog keletkezni a VS project egyik almappájában (Az IDE-ből nem fogod látni a fájl, külön meg kell keresni.). 
+Az svg fájl előállításához segítséget nyújtanak a draw_fractal.h és .c fájlok. A megfelelő fügvény helyes hívása után egy 
+fractal.svg nevű fájl fog keletkezni a VS project egyik almappájában (Az IDE-ből nem fogod látni a fájlt, külön meg kell keresni.). 
 A használathoz példa az example.c. Lényegében a header fájl által biztosított függvény, a fraktál csúcsainak koordinátáit várja, 
-egy rögzített körüljárásiirány szerint (például óramutatóval egyező). 
+egy rögzített körüljárási irány szerint (például óramutatóval egyező). 
 
 A koordináta rendszer elhelyezkedése a képernyőhöz viszonyítva: 
 - y: függőlegesen lefelé mutat 
