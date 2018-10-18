@@ -24,5 +24,5 @@ A függvények deklarációi kerüljenek egy külön headerbe, míg a definíci�
 
 A függvények implementálása során **nem** a hatékonyság a cél. Tehát nyugodtan fel lehet használni a már implementált függvényeket. Ennek megfelelő használatával a legtöbb függvény elég egyszerűvé válik.
 
-*Feltöltendő*: a halmaz header-je és a hozzátartozó .c forrásfájl illetve a kiegészített test.c fájl, feltöltés a moodle-ben a 6. labor szorgalmi feladatához 
+*Feltöltendő*: a halmaz header-je és a hozzátartozó .c forrásfájl (vagy egy megfelelően kiegészített test.c fájl), feltöltés a moodle-ben a 6. labor szorgalmi feladatához 
 <br/> *Beadási határidő*: 2018.10.24, labor kezdetéig
